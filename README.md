@@ -2,14 +2,14 @@ System Threat Forecaster - Kaggle Competition
 
 This repository contains my solution to a Kaggle competition focused on building a Threat Forecasting System. The goal is to develop a machine learning model that predicts potential threats based on historical data on malware detection.
 
-🧠 Project Overview
+Project Overview
 
 - **Competition**: https://www.kaggle.com/competitions/System-Threat-Forecaster
 - **Objective**: Predict potential future threats based on various features in the dataset.
 - **Approach**: Exploratory data analysis (EDA), data preprocessing, model training, evaluation, and prediction generation using Python in a Jupyter Notebook.
 
 
-## 🔍 Dataset
+## Dataset
 
 The dataset includes:
 
@@ -18,7 +18,7 @@ The dataset includes:
 
 > Note: These datasets are included here for reproducibility. Please refer to Kaggle's license and competition rules if you use or share this data elsewhere.
 
-## 🚀 Getting Started
+## Steps to start
 
 1. Clone this repository:
    ```bash
@@ -28,22 +28,19 @@ The dataset includes:
 3. Ensure to also upload the train and test csv
 
 
-📊 Model & Evaluation
+## Model & Evaluation
 Preprocessing steps like handling missing values, feature encoding, and scaling were applied.
 
 Model(s) used: (e.g., RandomForestClassifier, XGBoost, LightGBM)
 
 Evaluation Metric: (e.g., F1 Score, Accuracy, Log Loss, etc.)
 
-📈 Results
+## Results
 Achieved 0.62920 score
 
 Predictions were generated for the test set and saved for submission.
 
-🤝 Contributions
-Contributions are welcome. Feel free to fork the repo and submit pull requests!
-
-📄 License
+## License
 This project is released under the MIT License.
 
 
