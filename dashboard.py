@@ -60,10 +60,10 @@ def main():
     st.markdown(
         """A visual and interactive dashboard built on top of the **System Threat Forecaster** Kaggle dataset.
 
-Use this dashboard during your presentation to:
-- Introduce the dataset and target variable.
-- Show key patterns in system configuration and threat labels.
-- Demonstrate a simple machine learning–based risk prediction.
+This Dasboard is mainly used for:
+- Introducing the dataset and target variable.
+- Showing key patterns in system configuration and threat labels.
+- Demonstrating a simple machine learning–based risk prediction.
         """
     )
 
@@ -137,8 +137,7 @@ This makes metrics like Accuracy and ROC AUC meaningful for evaluation."""
     with tab_eda:
         st.subheader("EDA Highlights")
         st.markdown(
-            """Below are a few high-level patterns connecting system configuration and threat labels.
-You can describe these qualitatively during your presentation."""
+            """Below are a few high-level patterns connecting system configuration and threat labels."""
         )
 
         eda_col1, eda_col2 = st.columns(2)
